@@ -5,12 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "grandalf==0.8",
-    "langchain[openai]==0.3.27",
-    "langgraph==0.6.6",
-    "langgraph-checkpoint-sqlite==2.0.11",
-    "langgraph-cli[inmem]==0.4.0",
-    "python-dotenv==1.1.1",
+  "grandalf==0.8",
+  "langchain[openai]==0.3.27",
+  "langgraph>=0.6.7",
+  "langgraph-cli[inmem]>=0.4.2",
+  "langsmith>=0.4.28",
+  "langgraph-checkpoint-sqlite==2.0.11",
+  "python-dotenv==1.1.1",
+  "langchain_google_vertexai",
+  "google-cloud-aiplatform",
 ]
 
 [dependency-groups]
